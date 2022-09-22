@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See Sing Share</title>
+    <link rel="icon" href="./assets/css/img/icon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
+
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <!--Beggin Nav-->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="">
+                    More
+                    <i class="nav-arrow-down ti-angle-down"></i>
+                </a>
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>  
+            <!--End Nav-->
+
+            <!--Beggin Search-->
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+            <!--End Search-->
+        </div>
+
+
+        <div id="slider">
+            <div class="w3-content w3-section">
+                <img class="mySlides" src="./assets/css/img/slider/slider7.png" style="width:100%">
+                <img class="mySlides" src="./assets/css/img/slider/slider2.jpg" style="width:100%">
+                <img class="mySlides" src="./assets/css/img/slider/slider3.jpg" style="width:100%">
+                <img class="mySlides" src="./assets/css/img/slider/slider4.jpg" style="width:100%">
+            </div>
+              
+              <script>
+              var myIndex = 0;
+              carousel();
+              
+              function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 4000); // Change image every 4 seconds
+              }
+              </script>
+
+        </div>
+
+
+        <div id="content">
+            <!--About-section-->
+            <div id ="intro" class="content-section">
+                <h2 class="section-heading"> SEE SING SHARE</h2>
+                <p class="section-sub-heading"></p>
+                <p class="about-text">
+                    Cuối năm 2016, Hà Anh Tuấn ra mắt dự án âm nhạc See Sing Share, bao gồm 10 tập phát hành trên kênh YouTube của anh. Dự án đã tạo được tiếng vang lớn và trở thành hiện tượng trước công chúng. Sự thành công ngoài mong đợi đó đã kéo theo thành công của See Sing Share 2 – The Love Land (2017), liveshow Fragile cháy vé trong chỉ 2 tiếng kể từ khi mở bán, và album phòng thu thứ bảy cùng tên. Tiếp theo sau đó là dự án See Sing Share 3 – Sweet Memories (2018), cùng chuỗi liveshow See Sing Share Concert với Romance – Người đàn ông & bông hoa trên ngực trái và Gấu (2018).
+                </p>
+                <div class="SSS-image">
+                    <img src="./assets/css/img/HAT15.jpg" alt="">
+                </div>
+            </div>
+
+
+            <!--Tour-section-->    
+            <div id="tour" class="tour-section" >
+                <div class="content-section ">
+                    <h2 class="section-heading text-white"> TOUR DATE</h2>
+                    <p class="section-sub-heading text-white">Remember to took your tickets!</p>
+                    <ul class="tickets-list">
+                        <li>Agust <span class="sold-out">Sold out</span></li>
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>October <span class="quantity">3</span></li>
+                   </ul>
+
+                   <div class="row SSS-list">
+                    <div class="col text-center SSS-items">
+                        <img src="./assets/css/img/SSS/SSS1.jpg" alt="See sing share 1" class="SSS-img">
+                        <div class="SSS-content">
+                            <h3 class="SSS-heading">See sing share 1</h3>
+                            <p class="SSS-time">17 Dec 2016</p>
+                            <p class="SSS-desc">See Sing Share mùa đầu tiên được tổ chức đúng ngày sinh nhật Hà Anh Tuấn tại Cung Văn hóa Hữu nghị Hà Nội.</p>
+                            <button class="SSS-buy-btn js-buy-tickets">Buy Tickets</button>
+                        </div>
+                    </div>
+
+                    <div class="col text-center SSS-items">
+                        <img src="./assets/css/img/SSS/SSS2.jpg" alt="See sing share 2" class="SSS-img">
+                        <div class="SSS-content">
+                            <h3 class="SSS-heading">See sing share 2</h3>
+                            <p class="SSS-time">29 May 2017</p>
+                            <p class="SSS-desc">Với chủ đề về tình yêu, ekip sản xuất See Sing Share lần này đã lấy toàn bộ bối cảnh thu hình và thu âm ở Đà Lạt .</p>
+                            <button class="SSS-buy-btn js-buy-tickets">Buy Tickets</button>
+                        </div>
+                    </div>
+
+                    <div class="col text-center SSS-items">
+                        <img src="./assets/css/img/SSS/SSS3.jpg" alt="See sing share 3" class="SSS-img">
+                        <div class="SSS-content">
+                            <h3 class="SSS-heading">See sing share 3</h3>
+                            <p class="SSS-time">13 Nov 2020</p>
+                            <p class="SSS-desc"> Mở màn chuỗi 10 tập See Sing Share 3 là bản mashup hai ca khúc tình cảm Chỉ còn những mùa nhớ và Nuối tiếc. </p>
+                            <button class="SSS-buy-btn js-buy-tickets">Buy Tickets</button>
+                        </div>
+                    </div>
+
+                    <div class="col text-center SSS-items">
+                        <img src="./assets/css/img/SSS/SSS4.jpg" alt="See sing share 4" class="SSS-img">
+                        <div class="SSS-content">
+                            <h3 class="SSS-heading">See sing share 4</h3>
+                            <p class="SSS-time">16 Nov 2020</p>
+                            <p class="SSS-desc">Không gian âm nhạc của See Sing Share mùa 4 với những khung hình đậm chất thiên nhiên hoang dã của núi rừng. </p>
+                            <button class="SSS-buy-btn js-buy-tickets">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                   </div>
+                </div>
+            </div>
+
+
+            <!--Content-section-->    
+            <div id="contact" class="content-section">
+                <h2 class="section-heading"> CONTACT</h2>
+                <p class="section-sub-heading">Fan ? Drop a note!</p>
+            <div class="row contact-content">
+                <div class="col col-haft contact-inf">
+                    <p><i class="ti-location-pin"></i> DaLat , VN</p>
+                    <p><i class="ti-mobile"></i> Phone: 09xxx</p>
+                    <p><i class="ti-email"></i> Email: HATSeeSingShare@gmail.com</p>   
+                </div>
+            
+                <div class="col col-haft contact-form">
+                    <from action="">
+                        <div class="row mt-8">
+                            <div class="col col-haft">
+                                <input type="text" placeholder="Name" required id="" class="form-control">
+                            </div>
+                            <div class="col col-haft">
+                                <input type="email" placeholder="Email" required id="" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-8">
+                            <div class="col col-full">
+                                <input type="text" placeholder="Message" required id="" class="form-control">
+                            </div>
+                        </div>
+                        <input class="pull-right btn mt-16" type="submit" value="SEND">
+                        <div class="row"></div>
+                    </from>
+                </div>
+            </div>
+            </div>
+            <div class="img-footer">
+                <img src="./assets/css/img/footer.jpg" alt="" >
+            </div>
+        </div>
+
+
+        <div id="footer">
+            <div class="socials-list">
+                <a href=""><i class="ti-facebook"></i></a>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-youtube"></i></a>
+                <a href=""><i class="ti-pinterest"></i></a>
+                <a href=""><i class="ti-twitter"></i></a>
+                <a href=""><i class="ti-linkedin"></i></a>
+            </div>
+            <p class="copyright"> Powered by <a href="">w3.CSS</a></p>
+        </div>
+    </div>
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="ti-close"></i>
+            </div>
+            <header class="modal-header">
+                <i class="modal-heading ti-bag"></i>
+                Tickets
+            </header>
+
+            <div class="modal-body">
+                <label for="tickets-quantity" class="modal-label">
+                    <i class="ti-shopping-cart"></i>
+                    Tickets, $79 per person
+                </label>
+                <input id="tickets-quantity"type="text" class="modal-input" placeholder="How many?">
+
+                <label for="tickets-email" class="modal-label">
+                    <i class="ti-user"></i>
+                    Send to
+                </label>
+                <input id="tickets-email"type="email" class="modal-input" placeholder="Enter email!...">
+                <button id="buy-tickets">
+                    Pay
+                    <i class="ti-check"></i>
+                </button>
+            </div>
+
+            <footer class="modal-footer">
+                <p class="model-help"> Need <a href="help">help</a></p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-tickets')
+        const modal = document.querySelector('.js-modal')
+        const modalClose = document.querySelector('.js-modal-close')
+        const modalContainer = document.querySelector('.js-modal-container')
+
+        function showBuyTickets(){
+            modal.classList.add('open')
+        }
+
+        function hideBuyTickets(){
+            modal.classList.remove('open')
+        }
+        for(const buyBtn of buyBtns){
+            buyBtn.addEventListener('click', showBuyTickets)
+        }
+
+        modalClose.addEventListener('click' , hideBuyTickets)
+
+        modal.addEventListener('click', hideBuyTickets)
+
+        modalContainer.addEventListener('click', function(event){
+            event.stopPropagation()
+        })
+    </script>
+</body>
+
+</html>
